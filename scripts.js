@@ -10,7 +10,7 @@ $(function () {
 function MenuItem_Click(tab) {
 
     // remove selecteds
-    $(".mainitemouter.selected").removeClass('selected');
+    $(".menuitemouter.selected").removeClass('selected');
 
     // and add to one we're selecting
     $("#MenuItemOuter_" + tab).addClass("selected");
