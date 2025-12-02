@@ -79,5 +79,11 @@
     }
 
 
+    /*-- products -- */
+    .productlistouter .productitemouter {
+        float:left;
+        width: 100%;
+    }
+
 
 }

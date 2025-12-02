@@ -200,7 +200,8 @@ a:hover {
 
 .productlistouter .productitemouter {
     float:left;
-    width: 50%;
+    width: 45%;
+    margin: 2.5%;
     border-radius: 30px;
     transition: ease-in-out all 0.5s;
 }
@@ -208,18 +209,18 @@ a:hover {
 /* .productlistouter .productitemouter:hover {
     background-color: var(--accentcolor2);
 } */
-
+/* 
 .productlistouter .productitemouter .productiteminner {
     float:left;
     width: 90%;
-    margin: 2.5%;
-}
+    
+} */
 
-.productlistouter .productitemouter .productiteminner  {
+.productlistouter .productitemouter {
     border-color: var(--accentcolor2);
 }
 
-.productlistouter .productitemouter .productiteminner  .productname {
+.productlistouter .productitemouter .productname {
     float:left;
     width: 100%;
     text-align: center;
@@ -230,18 +231,18 @@ a:hover {
     font-weight: 700;
 }
 
-.productlistouter .productitemouter .productiteminner  .productimage {
+.productlistouter .productitemouter .productimage {
     float:left;
     width: 100%;
 }
 
-.productlistouter .productitemouter .productiteminner  .productimage img {
+.productlistouter .productitemouter .productimage img {
     object-fit: cover;
     width:100%;
     height: 100%;
 }
 
-.productlistouter .productitemouter .productiteminner  .productdesc {
+.productlistouter .productitemouter .productdesc {
     float:left;
     width: 100%;
     text-align:center;
