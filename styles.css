@@ -139,6 +139,15 @@ a:hover {
     font-family: 'print';
 }
 
+.maincontent .maincontentsubtitle {
+    float:left;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    border-bottom: 5px solid var(--accentcolor2);
+    padding: 20px 0;
+}
+
 
 
 /*-- Home content --*/
@@ -171,20 +180,74 @@ a:hover {
 
 .homepanelouter.alt .homepaneliconouter {
     float:right;
-    background-color: var(--accentcolor1);
-    color: var(--accentcolor2);
+    /* background-color: var(--accentcolor1);
+    color: var(--accentcolor2); */
 }
 
-.homepanelouter.alt .homepanelwordsouter {
+/* .homepanelouter.alt .homepanelwordsouter {
     background-color: var(--accentcolor2);
     color: var(--accentcolor1);
+} */
+
+
+
+
+/*-- products -- */
+.productlistouter {
+    float:left;
+    width: 100%;
 }
 
+.productlistouter .productitemouter {
+    float:left;
+    width: 50%;
+    border-radius: 30px;
+    transition: ease-in-out all 0.5s;
+}
 
+/* .productlistouter .productitemouter:hover {
+    background-color: var(--accentcolor2);
+} */
 
+.productlistouter .productitemouter .productiteminner {
+    float:left;
+    width: 90%;
+    margin: 2.5%;
+}
 
+.productlistouter .productitemouter .productiteminner  {
+    border-color: var(--accentcolor2);
+}
 
+.productlistouter .productitemouter .productiteminner  .productname {
+    float:left;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: var(--accentcolor2);
+    color: var(--accentcolor1);
+    font-size: 2em;
+    font-weight: 700;
+}
 
+.productlistouter .productitemouter .productiteminner  .productimage {
+    float:left;
+    width: 100%;
+}
+
+.productlistouter .productitemouter .productiteminner  .productimage img {
+    object-fit: cover;
+    width:100%;
+    height: 100%;
+}
+
+.productlistouter .productitemouter .productiteminner  .productdesc {
+    float:left;
+    width: 100%;
+    text-align:center;
+    font-size: 1.5em;
+    color: var(--accentcolor1);
+} 
 
 
 /*-- Footer -- */
