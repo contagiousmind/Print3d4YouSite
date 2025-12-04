@@ -251,6 +251,88 @@ a:hover {
 } 
 
 
+
+
+/*-- Upload -- */
+.uploadformouter {
+    float:left;
+    margin-left:20%;
+    width: 60%;
+}
+
+.uploadformouter .formline {
+    float:left;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.uploadformouter .formline .formlabel {
+    float:left;
+    width: 100%;
+    padding: 5px 0;
+    font-size: 2em;
+}
+
+.uploadformouter .formline .forminput {
+    float:left;
+    width: 100%;
+    padding: 5px 0;
+    font-size: 2em;
+}
+
+.uploadformouter .formline .formtextarea {
+    float:left;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1.25em;
+}
+
+.uploadformouter .formline .forminputfile {
+    float:left;
+    width: 100%;
+}
+
+.uploadformouter .formline .forminputfile::file-selector-button {
+    border: 2px solid black;
+    padding: 10px 10px;
+    width: 50%;
+    margin-left: 25%;
+    text-align:center;
+    border-radius: 5px;
+    background-color: var(--accentcolor2);
+    color: var(--accentcolor1);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.uploadformouter .formline .forminputfile::file-selector-button:hover {
+    background-color: var(--accentcolor1);
+    color: var(--accentcolor2);
+}
+
+.uploadformouter .formline .formbutton {
+    float:left;
+    width: 70%;
+    border: 5px solid var(--accentcolor1);
+    border-radius: 20px;
+    padding: 10px 0;
+    margin-left:15%;
+    text-align: center;
+    font-size: 1.25em;
+    background-color: var(--accentcolor2);
+    color: var(--accentcolor1);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.uploadformouter .formline .formbutton:hover {
+    background-color: var(--accentcolor1);
+    color: var(--accentcolor2);
+    border-color: var(--accentcolor2);
+}
+
+
+
 /*-- Footer -- */
 .footerouter {
     float:left;
