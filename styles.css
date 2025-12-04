@@ -275,15 +275,15 @@ a:hover {
 
 .uploadformouter .formline .forminput {
     float:left;
-    width: 100%;
-    padding: 5px 0;
+    width: 95%;
+    padding: 5px 2.5%;
     font-size: 2em;
 }
 
 .uploadformouter .formline .formtextarea {
     float:left;
-    width: 100%;
-    padding: 10px 0;
+    width: 95%;
+    padding: 5px 2.5%;
     font-size: 1.25em;
 }
 
