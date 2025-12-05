@@ -278,6 +278,14 @@ a:hover {
     width: 95%;
     padding: 5px 2.5%;
     font-size: 2em;
+    border: 5px solid var(--background);
+    border-radius: 10px;
+    outline: none
+}
+
+.uploadformouter .formline .forminput:focus,
+.uploadformouter .formline .forminput:hover {
+    border-color: var(--accentcolor2);
 }
 
 .uploadformouter .formline .formtextarea {
@@ -285,6 +293,13 @@ a:hover {
     width: 95%;
     padding: 5px 2.5%;
     font-size: 1.25em;
+    border: 5px solid var(--background);
+    border-radius: 10px;
+}
+
+.uploadformouter .formline .formtextarea:focus,
+.uploadformouter .formline .formtextarea:hover {
+    border-color: var(--accentcolor2);
 }
 
 .uploadformouter .formline .forminputfile {
@@ -312,11 +327,11 @@ a:hover {
 
 .uploadformouter .formline .formbutton {
     float:left;
-    width: 70%;
-    border: 5px solid var(--accentcolor1);
+    width: 80%;
+    margin-left:10%;
+    border: 5px solid var(--background);
     border-radius: 20px;
     padding: 10px 0;
-    margin-left:15%;
     text-align: center;
     font-size: 1.25em;
     background-color: var(--accentcolor2);
